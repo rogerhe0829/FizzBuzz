@@ -10,7 +10,7 @@ class FizzBuzz {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy3 = doFizzBuzz(i);
             boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
@@ -32,5 +32,10 @@ class FizzBuzz {
 
             }
         }
+    }
+
+    private static boolean doFizzBuzz(int i) {
+        boolean divisibleBy3 = i % 3 == 0;
+        return divisibleBy3;
     }
 }
