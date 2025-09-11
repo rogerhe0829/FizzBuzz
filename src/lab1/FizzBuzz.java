@@ -41,7 +41,7 @@ class FizzBuzz {
         return i;
     }
 
-    private static boolean doFizzBuzz(int i) {
+    public static boolean doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         return divisibleBy3;
     }
