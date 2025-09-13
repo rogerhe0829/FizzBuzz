@@ -12,8 +12,13 @@ public class Multiples {
         return acc;
     }
 
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
+
+
     public static void main(String[] args) {
-        System.out.println(multiples(10, 2, 3));
+        System.out.println(multiples());
     }
 }
 
